@@ -1,0 +1,1 @@
+This project is a deconstructing and rebuilding of the Google homepage. Skills demonstrated are basic HTML and CSS.
