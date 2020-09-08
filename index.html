@@ -81,7 +81,7 @@ li:hover{
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   height: 30px;
-  width: 75%;
+  width: 60%;
   padding: 2px 23px 2px 30px;
   outline: 0;
   background-color: #ffffff;
@@ -89,9 +89,9 @@ li:hover{
 }
 
 .search-icon {
-  position: absolute;
-  top: 8px;
-  left: 8px;
+  position: relative;
+  top: 3px;
+  left: 25px;
   width: 14px;
   color:lightgrey;
 }
@@ -109,6 +109,30 @@ li:hover{
   box-shadow: 0 0px 3px 0 rgba(0,0,0,0.24), 0 0px 3px 0 rgba(0,0,0,0.19);
 }
 
+body{
+  text-align: center;
+}
+
+#page-wrap{
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+  color: #5f6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+
+
+}
+
+
 
 
 
@@ -121,11 +145,12 @@ li:hover{
     <head>
         <title>Google</title>
         <body> <img class="logo" src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt= "Google logo">
+          <div id="page-wrap"></div>
 <ul>
     <li>About</li>
     <li>Store</li>
-    <li style= "float: right; width: 200">Images</li>
-    <li style= "float: right; width: 35">Gmail</li>
+    <li style= "float: right; width: 300">Images</li>
+    <li style= "float: right; padding: 14px 0px; width: 0">Gmail</li>
 </ul>
 <button class="button">Sign in</button>
 <div class="wrapper">
@@ -136,7 +161,11 @@ li:hover{
 
 <button class="button-search">Google Search</button>
 <button class= "button-search">I'm Feeling Lucky</button>
-
+<div class="footer" style="text-align: left">
+  <p>footer: figure out to add a list with different formatting</p>
+  
+</div>
+</div>
         </body>
     </head>
 </html>
