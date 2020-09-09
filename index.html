@@ -20,6 +20,15 @@ ul {
     
 }
 
+ul.b {
+  position: absolute;
+  bottom: 0;
+}
+
+ul.b li:hover {
+text-decoration: underline;
+}
+
 li {
     float: left;
     padding: 14px;
@@ -162,7 +171,14 @@ body{
 <button class="button-search">Google Search</button>
 <button class= "button-search">I'm Feeling Lucky</button>
 <div class="footer" style="text-align: left">
-  <p>footer: figure out to add a list with different formatting</p>
+ <ul.b>
+   <li style= "list-style-type: none; cursor: pointer">Advertising</li>
+   <li style= "list-style-type: none; cursor: pointer">Business</li>
+   <li style= "list-style-type: none; cursor: pointer">How Search works</li>
+   <li style= "float: right; list-style-type: none; cursor: pointer">Settings</li>
+   <li style= "float: right; list-style-type: none; cursor: pointer">Terms</li>
+   <li style= "float: right; list-style-type: none; cursor: pointer">Privacy</li>
+ </ul.b> 
   
 </div>
 </div>
